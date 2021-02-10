@@ -10,6 +10,7 @@
             background-color: pink;
         }
         h2 {
+            line-height: 20mm;
             font-family: sans-serif;
         }
         #moradia {
@@ -22,8 +23,15 @@
             }
         ul {
             list-style-position: inside;
-            line-height: 15mm;
+            line-height: 20mm;
             }
+            #quebra {
+                line-height: 5mm;
+            }
+            .quebra {
+                line-height: 20mm;
+            }
+          
     </style>
 </head>
 <body>
@@ -39,13 +47,17 @@
         <br> Dando meus primeiros e, talvez mais importantes passos.</p>
         <p id="moradia"> Residente de Carapicuiba, Brasil, sou estudante da Trybe</p>
     <ul id="minhas qualidades">
+        <br class="quebra">
         <li>Trabalho bem em equipe</li>
         <li>Aprendo <strong>MUITO</strong> rápido</li>
         <li>Sou <em> bem</em> descontraído</li>
         <li> Dedicado</li>
     </ul>
+    <br>
     <h3 id="blog">Um Blog???</h3>
-    <a href="https://presuntovegetariano.com.br/" target="_blank">Presunto vegetariano</a>
-    <br><br>
+    <a id="linkblog" href="https://presuntovegetariano.com.br/" target="_blank">Presunto vegetariano</a>
+    <br>
+    <br>
+    <br>
     <a href="#foto">Ao topo</a>
 </body>
