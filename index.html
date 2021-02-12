@@ -3,62 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Olá, mundo</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: monospace;
-            background-color: pink;
-        }
-        h2 {
-            line-height: 20mm;
-            font-family: sans-serif;
-        }
-        #moradia {
-            line-height: 1mm;
-            font-weight: bolder;
-        }
-        ol {
-            line-height: 10mm;
-            list-style-type: none;
-            }
-        ul {
-            list-style-position: inside;
-            line-height: 20mm;
-            }
-            #quebra {
-                line-height: 5mm;
-            }
-            .quebra {
-                line-height: 20mm;
-            }
-          
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img id="foto" src="https://github.com/Gui-lira/Gui-lira.github.io/blob/primeiroTesteCSS/minhafoto.jpg?raw=true" alt="Foto do autor da pagina sorrindo" width="300px">
+    <div id="foto">
+        <img id="foto" src="https://github.com/Gui-lira/Gui-lira.github.io/blob/primeiroTesteCSS/minhafoto.jpg?raw=true" alt="Foto do autor da pagina sorrindo" width="300px">
+    </div>
     <br class="quebra">
-    <ol>
-        <li><a href="#quem sou">Quem Sou?</a></li>
-        <li><a href="#minhas qualidades"><em>Habilidades</em></a></li>
-        <li><a href="#blog">Dica!</a></li>
-    </ol>
-    <br>
+    <div id="listaordenada">
+        <ol>
+            <li><a href="#quem sou">Quem Sou?</a></li>
+            <li><a href="#minhas qualidades"><em>Habilidades</em></a></li>
+            <li><a href="#blog">Dica!</a></li>
+        </ol>
+    </div>
+    <div id="eu">
     <h2>Guilherme Martins de Lira</h2>
     <p id="quem sou">Sou um ingressante no mundo do desenvolvimento de software.
         <br> Dando meus primeiros e, talvez mais importantes passos.</p>
         <p id="moradia"> Residente de Carapicuiba, Brasil, sou estudante da Trybe</p>
-    <ul id="minhas qualidades">
-        <br class="quebra">
-        <li>Trabalho bem em equipe</li>
-        <li>Aprendo <strong>MUITO</strong> rápido</li>
-        <li>Sou <em> bem</em> descontraído</li>
-        <li> Dedicado</li>
-    </ul>
-    <br>
-    <h3 id="blog">Um Blog???</h3>
-    <a id="linkblog" href="https://presuntovegetariano.com.br/" target="_blank">Presunto vegetariano</a>
-    <br>
-    <br>
-    <br>
-    <a href="#foto">Ao topo</a>
+    </div>
+    <div id="listanaoordenada">    
+        <ul id="minhas qualidades">
+            <br class="quebra">
+            <li>Trabalho bem em equipe</li>
+            <li>Aprendo <strong>MUITO</strong> rápido</li>
+            <li>Sou <em> bem</em> descontraído</li>
+            <li> Dedicado</li>
+         </ul>
+     </div>
+     <div id="blog">
+        <h3 >Um Blog???</h3>
+        <a id="linkblog" href="https://presuntovegetariano.com.br/" target="_blank">Presunto vegetariano</a>
+    </div>
+    <div id="linkfoto">
+         <a href="#foto">Ao topo</a>
+    </div>
 </body>
