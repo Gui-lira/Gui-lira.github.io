@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    background-color: pink;
+}
+h2 {
+    line-height: 20mm;
+    font-family: sans-serif;
+}
+#moradia {
+    line-height: 1mm;
+    font-weight: bolder;
+}
+ol {
+    line-height: 10mm;
+    list-style-type: none;
+    }
+ul {
+    list-style-position: inside;
+    line-height: 20mm;
+    }
+    #quebra {
+        line-height: 5mm;
+    }
+    .quebra {
+        line-height: 20mm;
+    }
+
+#listaordenada {
+   top: 8mm;
+}
+#eu {
+    margin: 10mm;
+}
+#listanaoordenada {
+    top: -2cm;
+    position: relative;
+    margin-bottom: 2mm;
+}
+#blog {
+    padding: 10px;
+    margin-bottom: 20mm;
+    line-height: 2mm;
+    position: relative;
+    top: -14mm;
+}
+#foto {
+    margin: 2mm;
+    border-radius: 100%;
+   border-width: 0mm;
+}
